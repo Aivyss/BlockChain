@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2015",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "outDir": "dist" // 컴파일된 것은 전부 이쪽으로
+    },
+
+    "include": ["src/**/*"], // src에 있는 모든 ts파일을 컴파일 가능!
+    "exclude": ["node_modules"]
+}
